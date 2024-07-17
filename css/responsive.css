@@ -8,19 +8,27 @@
 
 /* comportamento con larghezze sotto i 576px */
 @media screen and (max-width: 576px) {
-  /* impongo alle row di incolonnare i propri figli e centrarli */
+  /* impongo alle row di incolonnare i
+  propri figli e centrarli */
   .row {
     flex-direction: column;
     align-items: center;
   }
-  /* rimuovo i padding laterali molto grandi su queste larghezze
-  e li aggiungo lungo in verticale */
+  /* rimuovo i padding laterali molto grandi
+  su queste larghezze e li aggiungo in verticale */
   .col {
     padding: 1.5rem 0;
   }
-  /* do alle colonne in lessons la possibilità di prendere più
-  larghezza di finestra (o di schermo) */
+  /* do alle colonne in lessons section la
+  possibilità di prendere più larghezza di
+  finestra (o di schermo) */
   .lessons .col {
     width: 90%
+  }
+  /* do alle colonne in steps section la
+  possibilità di prendere più larghezza di
+  finestra (o di schermo) */
+  .steps .col {
+    width: 90%;
   }
 }
