@@ -19,16 +19,26 @@
   .col {
     padding: 1.5rem 0;
   }
-  /* do alle colonne in lessons section la
+  /* do alle colonne in section lessons la
   possibilità di prendere più larghezza di
   finestra (o di schermo) */
   .lessons .col {
     width: 90%
   }
-  /* do alle colonne in steps section la
+  /* do alle colonne in section steps la
   possibilità di prendere più larghezza di
   finestra (o di schermo) */
   .steps .col {
+    width: 90%;
+  }
+    /* do a tutte le colonne in section why-us la
+  possibilità di prendere più larghezza di
+  finestra (o di schermo) */
+  .why-us .col-left {
+    width: 90%;
+  }
+
+  .why-us .col-right {
     width: 90%;
   }
 }
