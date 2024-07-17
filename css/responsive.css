@@ -42,3 +42,16 @@
     width: 90%;
   }
 }
+
+/* comportamento per larghezze tra i 1160px e i 768px */
+@media screen and (max-width: 1160px) {
+  /* il container lavora con max-width per
+  non fare espandere eccessivamente il suo contenuto ma
+  è libero di contrarsi sotto max-width proprio perché
+  la dimensione è limitata solo muovendosi verso
+  dimensioni maggiori */
+  .container {
+    width: auto;
+    max-width: 1140px;
+  }
+}
